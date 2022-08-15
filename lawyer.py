@@ -11,6 +11,10 @@ bot = telebot.TeleBot('5676343264:AAHtpQ9N6w6zGsxWrjec8r19W7MuI8fW6mw')
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.send_message(message.chat.id, "Hi! I am a Lawyer!")
+    
+@bot.message_handler(commands=['menu'])
+def start(message):
+    bot.send_message(message.chat.id, "menu")
 
 
 @bot.message_handler(content_types="text")
