@@ -1,0 +1,17 @@
+APScheduler           
+beautifulsoup4        
+bs4                   
+cachetools          
+certifi              
+charset-normalizer   
+idna                 
+lxml                
+pyTelegramBotAPI     
+pytz                  
+pytz-deprecation-shim 
+requests            
+six                  
+soupsieve             
+tornado            
+tzdata             
+tzlocal             
